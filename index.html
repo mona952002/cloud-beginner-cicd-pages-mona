@@ -14,24 +14,26 @@
     <section>
       <h3>What is CI/CD?</h3>
       <p>
-        CI/CD is a modern way to automate software delivery. Continuous Integration
-        helps developers merge changes frequently and test them early. Continuous
-        Delivery and Continuous Deployment help move updates faster and more safely
-        to users. This reduces manual work, saves time, and improves reliability.
+      CI/CD refers to Continuous Integration and Continuous Deployment,
+      two practices used to improve software delivery. Developers can
+      automatically test and deploy their applications whenever new
+      changes are pushed. This approach increases efficiency and helps
+      teams release reliable software faster.
       </p>
     </section>
 
     <section>
       <h3>My Pipeline</h3>
       <p>
-        When I push changes to the main branch, GitHub Actions starts automatically.
-        The workflow checks the project files and then deploys the website to
-        GitHub Pages so the live site is updated.
+      When new code is pushed to the repository, a GitHub Actions
+      workflow runs automatically. It verifies the project files and
+      deploys the website to GitHub Pages. As a result, any update made
+      to the repository appears on the live website after the workflow finishes.
       </p>
     </section>
 
     <button onclick="changeMessage()">Click Me</button>
-    <p id="demo">Welcome to my updated CI/CD project.</p>
+    <p id="demo">Welcome to my CI/CD project.</p>
   </div>
 
   <script src="script.js"></script>
