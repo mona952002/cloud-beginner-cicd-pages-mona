@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cloud CI/CD Assignment</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Mohammed A. Hasan</h1>
+    <h2>Cloud Computing</h2>
+
+    <section>
+      <h3>What is CI/CD?</h3>
+      <p>
+        CI/CD is a modern way to automate software delivery. Continuous Integration
+        helps developers merge changes frequently and test them early. Continuous
+        Delivery and Continuous Deployment help move updates faster and more safely
+        to users. This reduces manual work, saves time, and improves reliability.
+      </p>
+    </section>
+
+    <section>
+      <h3>My Pipeline</h3>
+      <p>
+        When I push changes to the main branch, GitHub Actions starts automatically.
+        The workflow checks the project files and then deploys the website to
+        GitHub Pages so the live site is updated.
+      </p>
+    </section>
+
+    <button onclick="changeMessage()">Click Me</button>
+    <p id="demo">Welcome to my CI/CD project.</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
